@@ -7,10 +7,15 @@ module.exports = {
       }
     },
     {
+      // each release is published as one fresh commit, so "git pull" would refuse it (unrelated histories);
+      // fetch it and move to it instead. Songs, the database and settings are not tracked, so they stay put.
       method: "shell.run",
       params: {
         path: "app",
-        message: "git pull"
+        message: [
+          "git fetch origin master",
+          "git reset --hard FETCH_HEAD"
+        ]
       }
     },
     {
