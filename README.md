@@ -1,7 +1,8 @@
 # Ten Forward (Pinokio launcher)
 
 Your own AI radio, on your own computer. It writes the lyrics, sings them with YuE2 on your graphics
-card, and keeps twelve channels stocked so there is always something new on. There is a web page for a
+card, and keeps its channels stocked so there is always something new on: Late Shift, Sad Boy Pop and
+Engineering to start, and any you add. There is a web page for a
 computer or a phone browser, and an Android app that is only the dial.
 
 ## What Install does
